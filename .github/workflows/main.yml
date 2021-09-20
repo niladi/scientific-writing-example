@@ -19,7 +19,7 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: KG_and_DL_exposee.tex
+          root_file: example.tex
         
       - name: Release Latest
         uses: softprops/action-gh-release@v1
